@@ -1,6 +1,8 @@
 package hhesdk
 
+import "hhe-sdk/symmetric"
+
 type HCipher interface {
-	SCipher
+	hhesdk.SCipher
 	Eval()
 }
